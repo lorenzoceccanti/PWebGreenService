@@ -1,5 +1,5 @@
 # PWebGreenService
-Project for the Web Design course at Bachelor Degree
+Project for the Web Design course at Bachelor Degree, 2021
 
 # Description (in italian):
 Il sito rappresenta un gestionale di un'azienda di rifiuti.
