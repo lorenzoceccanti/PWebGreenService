@@ -1,0 +1,300 @@
+h2{
+    text-align: center;
+    background-color: rgba(221,239,182,1);
+    padding: 0.5%;
+    margin-top: 0px;
+}
+
+td, tr{
+    padding: 20px 110px;
+    border: solid 1px black;
+    background-color: rgba(221,239,182,1);
+    font-family:Verdana, sans-serif;
+    text-align: center;
+}
+
+th{
+    padding: 20px 20px;
+    border: solid 1px black;
+    background-color: rgba(221,239,182,1);
+    font-family:Verdana, sans-serif;
+    font-size: 20px;
+}
+table.tabellaphp{
+    text-align: center;
+    margin-top: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5%;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+div.nextb1 p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+a.button{
+    display: inline;
+    color: black;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    padding: 10px 25px;
+    text-decoration: none;
+
+}
+
+a.button:hover {
+    background-color: lightgreen;
+    color: darkorange;
+}
+
+div.nextb1{
+    margin-bottom: 3%;
+}
+
+div.nextb1 a.button{
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 46%;
+    margin-bottom: 1%;
+}
+
+div.nextb1 a.button:hover{
+    background-color: rgba(221,239,182,1);
+    color: red;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+form.aggiuntaRecord{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+form.aggiuntaRecord select{
+    margin-right: 1%;
+}
+form.aggiuntaRecord label{
+    margin-right: 0.5%;
+}
+form.aggiuntaRecord input#quantita{
+    margin-right: 1.5%;
+    width: 2%;
+}
+
+div.nextb1 #error{
+    padding-top: 4px;
+    padding-bottom: 2px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+p.ffox{
+    visibility: hidden;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+    background-color: lightcyan;
+    margin-bottom: 3%;
+  }
+  
+  .flex-item {
+    margin-top: 10px;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 6px;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    border: solid green 1px;
+    margin-bottom: 10px;
+  }
+
+.flex-item:hover{
+    background-color: yellow;
+    cursor: pointer;
+    color: red;
+}
+
+div#formsceltadata{
+    text-align: center;
+    background-color: lightcyan;
+    margin-bottom: 0%;
+}
+
+h3#h3blue{
+    background-color: lightcyan;
+    margin: 0;
+}
+h3#h3bluemin{
+    font-size: medium;
+    background-color: lightcyan;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+p#pbluemin{
+    font-size: medium;
+    font-family: Verdana,Tahoma, sans-serif;
+    text-align: center;
+    background-color: lightcyan;
+    margin: 0;
+    padding-bottom: 0.5%;
+}
+
+div#nuovoInizioIngombranti{
+    background-color: lightcyan;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+p#nofounderror{
+    padding-top: 4px;
+    padding-bottom: 2px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.elenco-anagrafica{
+    background-color: rgba(221,239,182,1);
+    text-align: center;
+}
+.elenco-anagrafica p{
+    background-color: lightblue;
+    margin-top: 0;
+    font-family: Verdana, sans-serif;
+    margin-bottom: 0;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+h2#scrittaOK{
+    margin-bottom: 0;
+}
+h2.dati-anagr{
+    background-color: lightblue;
+    margin-top: 0px;
+    color: blue;
+    margin-bottom: 0px;
+}
+
+div.query{
+    margin-bottom: 3.5%;
+    background-color: lightblue;
+    padding: 1%;
+}
+
+a#stampa {
+    display: inline-block;
+    margin-left: 30%;
+    width: 7%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    text-align: center;
+    color: black;
+    font-family: Verdana, sans-serif;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border: solid black 2px;
+    background-color: rgba(221,239,182,1);
+}
+a#stampa:hover {
+    background-color: green;
+    color: darkorange;
+    cursor: pointer;
+}
+
+div#logoIng{
+    margin-top: 1%;
+    background-color: rgba(221,239,182,1);
+    padding-bottom: 1%;
+    text-align: center;
+}
+div#logoIng h1{
+
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin-top: 1%;
+    font-size: 22px;
+    margin-bottom: 0%;
+    padding-top: 1%;
+}
+
+
+@-moz-document url-prefix() {
+    p.ffox{
+        visibility: visible;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        background-color: lightcyan;
+        font-weight: 600;
+        padding: 0.5%;
+    }
+  }
+@media print{
+    nav{
+        display: none;
+    }
+
+    #fondopagina{
+        display: none;
+    }
+    h2.dati-anagr{
+        margin-bottom: 2%;
+    }
+
+    .elenco-anagrafica p{
+        background-color: lightblue;
+        margin-top: 0;
+        font-family: Verdana, sans-serif;
+        margin-bottom: 1%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+
+    table.tabellaphp{
+        border: none;
+        margin-bottom: 1.5%;
+    }
+
+    td, tr{
+        padding: 20px 40px;
+        border: solid black 2px;
+        font-family:Verdana, sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    th{
+        padding: 20px 20px;
+        border: solid black 2px;
+        font-family:Verdana, sans-serif;
+        font-size: 14px;
+    }
+
+    a#stampa{
+        display: none;
+    }
+}

@@ -1,0 +1,189 @@
+/* RISOLUZIONE DEFAULT 1980 x 1080 */
+img#imgMappaNW{
+        margin-top: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
+        float: left;
+    }
+    img#imgMappaCE{
+        width: 23%;
+        height: 10%;
+        margin-top: 210px;
+        margin-left: 50px;
+        margin-right: 50px;
+        float: left;
+    }
+    h2#TitleCalendario{
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    tr, th{
+        padding: 20px 20px;
+    }
+    
+    div.calendario p#nbsfalci{
+        background-color: rgba(221,239,182,1);
+        text-align: left;
+        font-size: 19.8px;
+        font-family: Tahoma, Verdana, sans-serif;
+        border-radius: 15px 15px 15px 15px;
+        padding-right: 1%;
+        padding-left: 1.7%;
+        margin-right: 770px;
+        margin-left: 2%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+    div.calendario table{
+        margin-left: 22%;
+        border-collapse: separate;
+        border-spacing: 1em 1em;
+        
+    }
+    div.calendario table th.testo{
+        text-align: left;
+        font-size: 22.5px;
+        font-family: Tahoma, Verdana, sans-serif;
+        background-color: rgba(221,239,182,1);
+        border-radius: 15px 15px 15px 15px;
+    }
+    div.circle{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 2px; 
+        margin-left: 32px;
+    }
+    
+    div.circle#organico{
+        background-color: saddlebrown;
+    }
+    div.circle#indifferenziato{
+        background-color: black;
+    }
+    div.circle#carta{
+        background-color: yellow;
+    }
+    div.circle#multimateriale{
+        background-color: blue;
+    }
+
+/* RISOLUZIONE 1600 x 1200 */
+@media only screen and (max-width: 1600px){
+
+img#imgMappaNW{
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+}
+img#imgMappaCE{
+    width: 23%;
+    height: 10%;
+    margin-top: 210px;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+}
+h2#TitleCalendario{
+    text-align: center;
+    margin-top: 50px;
+}
+
+tr, th{
+    padding: 20px 20px;
+    /* aggiungere bordi*/
+}
+
+div.calendario p#nbsfalci{
+    background-color: rgba(221,239,182,1);
+    text-align: left;
+    font-size: 19.8px;
+    font-family: Tahoma, Verdana, sans-serif;
+    border-radius: 15px 15px 15px 15px;
+    padding-right: 1%;
+    padding-left: 1.7%;
+    margin-right: 460px;
+    margin-left: 2%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+div.calendario table{
+    margin-left: 22%;
+    border-collapse: separate;
+    border-spacing: 1em 1em;
+    
+}
+div.calendario table th.testo{
+    text-align: left;
+    font-size: 22.5px;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: rgba(221,239,182,1);
+    border-radius: 15px 15px 15px 15px;
+}
+div.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px; 
+    margin-left: 32px;
+}
+
+div.circle#organico{
+    background-color: saddlebrown;
+}
+div.circle#indifferenziato{
+    background-color: rgba(169, 169, 169, 0.753);
+}
+div.circle#carta{
+    background-color: yellow;
+}
+div.circle#multimateriale{
+    background-color: blue;
+}
+}
+
+/* BUG DEL RIMPICCIOLIMENTO */
+@media only screen and (max-width: 1600px){
+
+    /* DA QUI IN GIU' ANCHE PER FIREFOX*/
+    tr, th{
+        padding: 10px 10px;
+    }
+
+    img#imgMappaNW{
+        margin-top: 90px;
+        transform: scale(0.8,0.8);
+    }
+    
+    img#imgMappaCE{
+        margin-top: 170px;
+        transform: scale(0.8,0.8);
+    }
+
+    div.calendario p#nbsfalci{
+        margin-top: 90px;
+        transform: scale(0.8,0.8);
+    }
+
+    div.calendario p#nbsfalci{
+        background-color: rgba(221,239,182,1);
+        text-align: left;
+        font-size: 19.8px;
+        font-family: Tahoma, Verdana, sans-serif;
+        border-radius: 15px 15px 15px 15px;
+        padding-right: 1%;
+        padding-left: 1.7%;
+        margin-bottom: 3%;
+        margin-right: 260px;
+        margin-left: 2%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+}

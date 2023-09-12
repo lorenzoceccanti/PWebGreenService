@@ -1,0 +1,93 @@
+div#box{
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 30%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: rgba(221,239,182,1);
+    text-align: center;
+    border: solid black 2px;
+    margin-bottom: 3%;
+}
+
+div#box input{
+    display: block;
+    position: relative;
+    width: 50%;
+	height: 30px;
+    margin-top: 8px;
+    margin-left: 25%;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+div#box input.submitbutton{
+    width: 10%;
+    display: inline-block;
+    position: relative;
+	height: 30px;
+    margin-top: 8px;
+    margin-left: 5%;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+div#box select{
+    display: block;
+    position: relative;
+    width: 50%;
+	height: 30px;
+    margin-left: 25%;
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+
+div#box input:invalid{
+    box-shadow: none;
+}
+
+div#box select:invalid{
+    box-shadow: none;
+}
+
+div#box label{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+div#box p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+h3{
+    text-align: center;
+    background-color: rgba(221,239,182,1);
+    padding: 0.5%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+form button#annulla{
+    margin-left: 3%;
+    width: 10%;
+	height: 30px;
+    font-size: 16px;
+}
+
+/* BUG DEL RIMPICCIOLIMENTO */
+@media only screen and (max-width: 1600px){
+
+    form button#annulla{
+        margin-left: 3%;
+        width: 10%;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 500px;
+    }
+    }

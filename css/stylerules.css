@@ -1,0 +1,49 @@
+ul{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 28px;
+    background-color: lightcyan;
+    text-align: center;
+
+}
+
+ul#final{
+    margin-bottom: 3%;
+}
+
+li{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+h2{
+    text-align: center;
+    background-color: rgba(221,239,182,1);
+    padding: 0.5%;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+
+div#logoIng{
+    margin-top: 1%;
+    background-color: rgba(221,239,182,1);
+    padding-bottom: 1%;
+    text-align: center;
+}
+div#logoIng h1{
+
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin-top: 1%;
+    font-size: 22px;
+    margin-bottom: 0%;
+    padding-top: 1%;
+}

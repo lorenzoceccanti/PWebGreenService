@@ -1,0 +1,78 @@
+div#logoIng{
+    margin-top: 1%;
+    background-color: rgba(221,239,182,1);
+    padding-bottom: 1%;
+}
+div#logoIng h1{
+    display: inline;
+    float: right; 
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin-top: 3%;
+    font-size: 48px;
+    margin-right: 37%;
+}
+
+div#logoIng img{
+    margin-left: 30%;
+    width: 128px;
+    padding-top: 1%;
+}
+
+ul.elencosvingombranti{
+    list-style-type: none;
+    margin-top: 3%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+ul.elencosvingombranti img{
+    width: 45%;
+}
+
+ul.elencosvingombranti li{
+    align-content: center;
+    padding-left: 7%;
+}
+
+ul.elencosvingombranti p{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 55%;
+    text-align: center;
+}
+
+ul.elencosvingombranti a.underline{
+    text-decoration: none;
+    color: black;
+}
+
+ul.elencosvingombranti p:hover{
+    text-decoration: underline black;
+}
+
+ul.elencosvingombranti img:hover{
+    background-color: rgba(221,239,182,1);
+}
+
+/* BUG DEL RIMPICCIOLIMENTO */
+@media only screen and (max-width: 1600px){
+    div#logoIng h1{
+        display: inline;
+        float: right; 
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        margin-top: 4%;
+        font-size: 38px;
+        margin-right: 37%;
+    }
+
+    ul.elencosvingombranti{
+        list-style-type: none;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        margin-left: 7%;
+        display: flex;
+        justify-content: center;
+    }
+
+    }

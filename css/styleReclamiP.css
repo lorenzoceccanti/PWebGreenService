@@ -1,0 +1,37 @@
+body{
+    width: 800px;
+    height: 600px;
+    margin: 0;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div#box{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: rgba(221,239,182,1);
+    text-align: center;
+    border: solid black 2px;
+    margin-bottom: 3%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+div#box label{
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+div#box textarea{
+    margin-left: 14.5%;
+    margin-right: 8%;
+    margin-top: 8px;
+    font-size: 18px;
+    margin-bottom: 12px;
+    width: 70%;
+}
+

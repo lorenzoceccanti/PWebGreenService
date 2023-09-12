@@ -1,0 +1,165 @@
+form#motorericerca{
+    padding-left: 1%;
+    padding-bottom: 3%;
+}
+form#motorericerca p#testobarra{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    background-color: rgba(221,239,182,1);
+    border-radius: 15px;
+    border: 1.5px solid black;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    margin-right: 10%
+
+
+}
+form#motorericerca input[type=text]{
+    width: 252px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(189, 212, 134);
+    background-image: url('../img/searchicon.png');
+    background-position: 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 1s ease-in-out;
+  }
+
+form#motorericerca input[type=text]:hover {
+        width: 90%;
+}
+
+form#motorericerca input[type=text]:focus {
+    width: 90%;
+}
+
+div#rifiutariosubtitle{
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(221,239,182,1);
+}
+
+div#rifiutariomain{
+    float: left;
+    font-family: sans-serif;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 3%;
+}
+
+div#rifiutariomain div#rifiutariomultim {
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    background-color: rgba(221,239,182,1);
+    border: 3.2px solid blue;
+}
+
+div#rifiutariooth{
+    font-family: sans-serif;
+    margin-top: 1%;
+    margin-left: 48%;
+    margin-right: 2%;
+    
+}
+
+div#rifiutariooth div#rifiutariocarta{
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    background-color: rgba(221,239,182,1);
+    border: 3.2px solid yellow;
+}
+
+div#rifiutariooth div#rifiutarioindif{
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    background-color: rgba(221,239,182,1);
+    margin-bottom: 2%;
+    border: 3.2px solid black;
+}
+
+div#rifiutariomain div#rifiutarioorganico{
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    background-color: rgba(221,239,182,1);
+    border: 3.2px solid saddlebrown;
+}
+
+div#rifiutariooth div#rifiutarioingarea{
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    background-color: rgba(221,239,182,1);
+    border: 2px solid orangered;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul.elenco li{
+    padding-bottom: 1%;
+}
+
+div.barraricerca{
+    margin-top: 2%;
+    padding:0%;
+    border-radius: 15px;
+}
+
+/* BUG DEL RIMPICCIOLIMENTO */
+@media only screen and (max-width: 1600px){
+
+    div#rifiutariooth{
+        float: left;
+        font-family: sans-serif;
+        margin-top: 1%;
+        margin-left: 8%;
+        margin-right: 2%;
+        
+    }
+
+    div#rifiutariomain{
+        float: left;
+        font-family: sans-serif;
+        margin-left: 20%;
+        margin-right: 1%;
+        padding-bottom: 3%;
+    }
+
+    div#rifiutariomain div#rifiutariomultim {
+       transform: scale(0.9,0.9);
+       font-size: 20px;
+    }
+
+    div#rifiutariomain div#rifiutarioorganico{
+        transform: scale(0.9,0.9);
+        font-size: 20px;
+    }
+
+    div#rifiutariooth div#rifiutarioindif{
+        transform: scale(0.9,0.9);
+        font-size: 20px;
+    }
+
+    div#rifiutariooth div#rifiutarioingarea{
+        transform: scale(0.9,0.9);
+        font-size: 26px;
+    }
+
+    div#rifiutariooth div#rifiutariocarta{
+        transform: scale(0.9,0.9);
+        font-size: 22px;
+    }
+
+
+    }

@@ -1,0 +1,54 @@
+div#subtitle{
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(221,239,182,1);
+}
+
+div#box{
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 30%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: rgba(221,239,182,1);
+    text-align: center;
+    border: solid black 2px;
+    margin-bottom: 3%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+div#box textarea{
+    text-align: left;
+    display: block;
+    position: relative;
+    width: 70%;
+	height: 150px;
+    margin-top: 8px;
+    margin-left: 15%;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+div#box select{
+    display: block;
+    position: relative;
+    width: 70%;
+	height: 30px;
+    margin-top: 12px;
+    margin-left: 15%;
+    font-size: 18px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+div#box label{
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+div#register_box input:invalid{
+    box-shadow: none;
+}
+
+div#register_box select:invalid{
+    box-shadow: none;
+}
